@@ -1,0 +1,11 @@
+pyinstaller --onefile --windowed --icon=icon.ico ^
+ --add-data "mrunner.png;." ^
+ --add-data "hart.png;." ^
+ --add-data "spider.png;." ^
+ --add-data "icon.ico;." ^
+ main.py
+
+
+
+
+pyinstaller --onefile --windowed --icon=icon.ico --add-data "mrunner.png;." --add-data "hart.png;." --add-data "spider.png;." main.py
